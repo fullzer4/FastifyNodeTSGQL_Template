@@ -1,0 +1,16 @@
+{
+    "extends": "fastify-tsconfig",
+    "compilerOptions": {
+      "target": "ES2022",                                 
+      "lib": ["ES2022"],                                       
+      "module": "NodeNext",   
+      "outDir": "./dist",                                  
+      "noEmit": false,           
+      "esModuleInterop": true,
+      "resolveJsonModule": true,                       
+      "skipDefaultLibCheck": true,
+      "skipLibCheck": true,     
+      "strict": true
+    },
+    "exclude": ["node_modules", "dist", "test", "vitest.config.ts"]
+  }
